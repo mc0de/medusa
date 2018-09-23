@@ -1,0 +1,3 @@
+alias laraadd='sudo /home/lun/Code/medusa/medusa.py create -p'
+alias laradel='sudo /home/lun/Code/medusa/medusa.py delete -p'
+
