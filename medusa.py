@@ -27,8 +27,8 @@ def create_project(args):
     MySQL(config).create_db(args.project_name)
     NginX(args.project_name).make_cfg()
 
-    with open('/etc/hosts', 'a') as fh:
-        fh.write('127.0.0.1   {}.test\n'.format(args.project_name))
+    # with open('/etc/hosts', 'a') as fh:
+    #     fh.write('127.0.0.1   {}.test\n'.format(args.project_name))
 
 
 def delete_project(args):
